@@ -1,0 +1,26 @@
+package in28MinutesRestart;
+
+public class mulTable {
+	void printMul() {
+		printMul(5);
+	}
+
+	void printMul(int table) {
+		printMul(table, 1, 10);
+	}
+
+	void printMul(int table, int b, int e) {
+		for (int i = b; i <= e; i++) {
+			System.out.printf("%d X %d=%d", table, i, table * i).println();
+		}
+	}
+
+	public static void main(String[] args) {
+		mulTable m = new mulTable();
+		// m.printMul();
+		System.out.println();
+		// m.printMul(10);
+		System.out.println();
+		m.printMul(15, 6, 9);
+	}
+}

@@ -1,0 +1,14 @@
+package in28MinutesRestart;
+
+public class mulTableRunner {
+	void printMul(int table,int begin, int end) {
+		 for(int i=begin;i<=end;i++) {
+			 System.out.printf("%d*%d=%d",table,i,table*i).println();
+		 }
+	 }
+	public static void main(String[] args) {
+        mulTableRunner m=new mulTableRunner();
+        m.printMul(7,5,10);
+	}
+
+}

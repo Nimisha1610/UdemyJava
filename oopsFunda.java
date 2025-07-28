@@ -1,21 +1,27 @@
 package in28MinutesRestart;
-
+//encapsulation
 public class motorBike {// class
-	int speed;// state
+
+	// state
+	private int speed;// instance variable
+
+	void setSpeed(int spe) {// local variable
+		this.speed = spe;
+
+	}
 
 	void start() {// behaviour
-
-		System.out.println("bike is at " + speed + " kmph");
+		System.out.println("BIKE is at " + speed + " kmph");
 
 	}
 
 	public static void main(String[] args) {
 
-		motorBike pulsar = new motorBike();//object
+		motorBike pulsar = new motorBike();// object
 		motorBike bullet = new motorBike();
 
-		pulsar.speed = 10;
-		bullet.speed = 20;
+		pulsar.setSpeed(100);
+		bullet.setSpeed(80);
 		pulsar.start();
 		bullet.start();
 

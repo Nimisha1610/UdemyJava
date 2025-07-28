@@ -5,7 +5,7 @@ public class motorBike {// class
 
 	void start() {// behaviour
 
-		System.out.println("bike started at " + speed + " kmph");
+		System.out.println("bike is at " + speed + " kmph");
 
 	}
 

@@ -5,7 +5,7 @@ public class motorBike {// class
 	// state
 	private int speed;// member variable
 
-	motorBike() {// default
+	motorBike() {// no argument constructor
 		this(5);
 	}
 

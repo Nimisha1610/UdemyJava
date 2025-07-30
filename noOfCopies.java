@@ -4,6 +4,7 @@ public class book {
 	private int noOfCopies;
 
 	void setnoc(int noOfCopies) {
+		if(noOfCopies>0)
 		this.noOfCopies = noOfCopies;
 	}
 
@@ -12,7 +13,7 @@ public class book {
 	}
 
 	void increaseNoc(int howMuch) {
-		setnoc(this.noOfCopies + howMuch);
+		setnoc(this.noOfCopies + howMuch);//if applies here
 	}
 
 	void bookDetails() {
